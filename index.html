@@ -75,7 +75,6 @@ window.addEventListener('hashchange', () => {
       contentDiv.innerHTML = component('h1', {}, ['반갑습니다. 접속할 때 보이는 페이지(처럼보이는) element입니다.'])
   }
 })
-
 // 초기 로딩을 위한 코드
 window.dispatchEvent(new Event('hashchange'));
 // 위의 addEventListener()는 window 객체에 이벤트 핸들러이고, 변화가 있을 때마다 이벤트가 발생한다. 
